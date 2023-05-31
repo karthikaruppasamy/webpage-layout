@@ -1,0 +1,422 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:1170px;
+	margin:0 auto;
+	padding-right:15px;
+	padding-left:15px;
+	/* margin-right:auto; */
+	/* margin-left:auto; */
+}
+.flex-container{
+	display:flex;
+	flex-wrap:wrap;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+.flex-items1{
+	width:8.33%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.flex-items2{
+	width:16.66%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-items3{
+	width:25%;
+	padding-right:15px;
+	padding-left:15px;
+	flex:0 0 auto;
+}
+.flex-items4{
+	width:33.33%;
+	padding-right:15px;
+	padding-left:15px;
+	flex:0 0 auto;
+}
+.flex-items5{
+	width:41.66%;
+	padding-right:15px;
+	padding-left:15px;
+	flex:0 0 auto;
+}
+.flex-items6{
+	width:50%;
+	padding-right:15px;
+	flex:0 0 auto;
+	padding-left:15px;
+}
+.flex-items7{
+	width:58.33%;
+	padding-right:15px;
+	padding-left:15px;
+	flex:0 0 auto;
+}
+.flex-items8{
+	width:66.66%;
+	padding-right:15px;
+	padding-left:15px;
+	flex:0 0 auto;
+}
+.flex-items9{
+	width:75%;
+	padding-right:15px;
+	padding-left:15px;
+	flex:0 0 auto;
+}
+.flex-items10{
+	width:83.33%;
+	padding-right:15px;
+	padding-left:15px;
+	flex:0 0 auto;
+}
+.flex-items11{
+	width:91.66%;
+	padding-right:15px;
+	padding-left:15px;
+	flex:0 0 auto;
+}
+.flex-items12{
+	width:100%;
+	padding-right:15px;
+	padding-left:15px;
+	flex:0 0 auto;
+}
+/* header strt */
+.header{
+	padding:15px;
+	background-color:black;
+	
+}
+.logo{
+	width:auto;
+	background-color:red;
+	height:40px;
+}
+
+.navbar{
+	width:auto;
+	height:40px;
+	background-color:red;
+}
+.button{
+	width:auto;
+	height:40px;
+	background-color:red;
+}
+ /* header end */
+ 
+ 
+.section1{
+	background-color:red;
+	padding:50px;
+}
+.sec1-cnt{
+	background-color:black;
+	height:450px;
+}
+.section2{
+	background-color:black;
+	padding:50px;
+}
+.sec2-logo{
+	background-color:red;
+	width:auto;
+	height:40px;
+}
+
+/* abt section start */
+.about{
+	background-color:red;
+	padding:50px 0;
+}
+.abt-content{
+	background-color:black;
+	width:auto;
+	height:360px;
+}
+.card{
+	background-color:black;
+	height:360px;
+	padding:18px;
+	width:auto;
+}
+.card1{
+	background-color:red;
+	height:145px;
+	width:auto;
+	margin-bottom:36px;
+}
+
+/* abt section end */
+
+
+ /* num section start */
+ .num_section{
+	background-color:black;
+	 padding:50px;
+ }
+.num{
+	 background-color:red;
+	width:auto;
+	height:100px;
+ }
+		  /* /------Num section End------/ */
+		  
+		   /* /------modi section start------/ */
+ .modi_sec{
+	background-color:red;
+	padding:30px 0px;
+}
+.modi-content{
+	background-color:black;
+	 width:auto;
+	 height:100px;
+ }		   
+/* /------modi section End------/ */
+
+
+			
+ /* /------display section start------/ */
+.display_sec{
+	background-color:black;
+	padding:30px 0px;
+}
+
+.display_con{
+	 background-color:red;
+	width:auto;
+	 height:500px;
+}
+			   
+    /* /------display section End------/ */
+			  
+	/* /------service section start------/ */
+.service_sec{
+	background-color:red;
+	padding:25px 0;
+	}
+.service{
+	background-color:black;
+	width:auto;
+	height:100px;
+	margin-bottom:20px;
+}
+.service_con{
+	background-color:black;
+	width:auto;
+	height: 150px;
+	margin-bottom:20px;
+}
+				
+				
+	 /* /------service section End------/ */
+				  
+	 /* /------- portfolio section start------/ */
+.portfolio_sec{
+	 background-color:black;
+	  padding:25px 0;
+ }
+ .por_con{
+   background-color:red;
+	width:auto;
+   height:100px;
+	margin-bottom:20px;
+ }
+.image{
+	 background-color:red;
+	width:auto;
+	 height:200px;
+	 margin-bottom:20px;
+}
+						  
+						  
+    /* /------portofolio section End------/ */
+					   
+	 /* /------Testimonial_section start------/ */
+ .testimonial_sec{
+	 background-color:red;
+	 padding:25px 0;
+ }
+.testimonial_con{
+	background-color:black;
+	 width:auto;
+	height:100px;
+	 margin-bottom:20px;
+}
+.test_con{
+	 background-color:black;
+	width:auto;
+	 height:400px;
+	margin-bottom:20px;
+}
+					   
+	 /* /------Testimonial_section End-------/ */
+				
+	 /* /------price_section start-------/ */
+				  
+.price_sec{
+    background-color:black;
+	padding:25px 0;
+ }
+ .price{
+	 background-color:red;
+	 width:auto;
+	 height:100px;
+	 margin-top:20px;
+	 }
+.price_con{
+	 background-color:red;
+	width:auto;
+	 height:400px;
+	 margin-top:20px;
+ }
+					   
+				  
+	 /* /-----price_section End-------/ */
+				   
+	 /* /-----faq_section start-------/ */
+.faq_sec{
+	background-color:red;
+	padding:25px 0;
+}
+.faq_con{
+	background-color:black;
+	height:80px;
+	width:auto;
+	margin-bottom:20px;
+}
+.faq{
+	background-color:black;
+	height:40px;
+	width:auto;
+	margin-bottom:20px;
+}
+						
+				
+	 /* /-----faq_section End-------/ */
+					 
+	/* /-----team_section start-------/ */
+					  
+ .team_sec{
+	  background-color:black;
+	 padding:25px 0px;
+}
+.team_con{
+    background-color:red;
+	width:auto;
+	height:70px;
+	margin-bottom:30px;	
+ }
+.team{
+	background-color:red;
+	width:auto;
+	height:400px;
+ }
+						  
+						  
+					  
+    /* /-----team_section End-------/ */
+					   
+	 /* /-----contact_section start-------/ */
+						
+.contact_section{
+	 background-color:red;
+	padding:25px 0px;
+ }
+.team_con{
+	 background-color:black;
+	width:auto;
+	height:70px;
+	margin-bottom:30px;
+ }
+.detail_con{
+	 /* background-color:black; */
+	width:auto;
+	height:400px;
+	margin-bottom:30px;
+}
+					  
+ .details_con{
+	 background-color:black;
+	width:auto;
+	height:400px;
+	margin-bottom:30px;
+ }
+ .address{
+	 background-color:black;
+	 width:auto
+	 height:150px;
+	 margin-bottom:30px;		
+ }
+					  
+ .address_con{
+	 background-color:black;
+	 width:auto;
+	 height:220px;
+	 margin-bottom:30px;
+ }
+						  
+							
+						  
+							
+						
+	 /* /-----contact_section End-------/ */
+						 
+	 /* /-----presento_section start-------/ */
+ .presento{
+	background-color:black;
+	padding:25px 0px;
+ }
+ .presento_con{
+	 background-color:red;
+	width:auto;
+	height:250px;
+	margin-bottom:40px;
+ }
+ .link_con{
+	background-color:red;
+	width:auto;
+	height:300px;
+	 margin-bottom:40px;
+ }
+ .ourservice_con{
+	  background-color:red;
+	 width:auto;
+	 height:300px;
+	 margin-bottom:40px;
+ }
+ .letter_con{
+	 background-color:red;
+	 width:auto;
+	 height:200px;
+	 margin-bottom:40px;
+}
+								 
+							 
+	 /* /-----presento_section End-------/ */
+							 
+	 /* /-----footer_section start-------/ */
+							 
+.footer{
+	 background-color:red;
+	 padding:25px 0px;
+ }
+ .copyrights{
+								 
+	 background-color:black;
+	 width:auto;
+	height:100px;
+	 margin-bottom:40px;
+	 }	 
+								 
+							 
+		/* /-----footer_section End-------/ */
